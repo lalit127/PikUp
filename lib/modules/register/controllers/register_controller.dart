@@ -22,66 +22,6 @@ class RegisterController extends GetxController {
   @override
   void onInit() {
     // localizations = getAppLocalizations(Get.context!)!;
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg',
-      title: 'Indian',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/ice-cream-cone-splash.jpg',
-      title: 'Chinese',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg',
-      title: 'Indian',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/ice-cream-cone-splash.jpg',
-      title: 'Chinese',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg',
-      title: 'Indian',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/ice-cream-cone-splash.jpg',
-      title: 'Chinese',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg',
-      title: 'Indian',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/ice-cream-cone-splash.jpg',
-      title: 'Chinese',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg',
-      title: 'Indian',
-    ));
-    foodItems.add(FoodItemModel(
-      id: 1,
-      image:
-          'https://www.foodiesfeed.com/wp-content/uploads/2023/06/ice-cream-cone-splash.jpg',
-      title: 'Chinese',
-    ));
     super.onInit();
   }
 

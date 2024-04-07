@@ -34,6 +34,5 @@
         android:name = "com.google.android.geo.API_KEY"
         android:value = "AIzaSyDS-fqDHzhDvAt5J17twzuUIpy9OaUISCw"
         />
-        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     </application>
 </manifest>

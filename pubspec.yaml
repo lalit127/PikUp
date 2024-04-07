@@ -106,10 +106,10 @@ dependencies:
   firebase_core: ^2.14.0
 
   # Firebase Crashlytics for crash reporting
-  firebase_crashlytics: ^3.3.3
+  firebase_crashlytics: any
 
   # Firebase Cloud Messaging
-  firebase_messaging: ^14.6.3
+  firebase_messaging: any
 
   # For Bounce Widget
   flutter_bounce: ^1.1.0
@@ -123,6 +123,12 @@ dependencies:
   #Project's library
   toggle_switch: ^2.1.0
   flutter_gen: ^5.4.0
+  country_picker: any
+  cloud_firestore: any
+  firebase_storage: any
+  firebase_auth: any
+  awesome_snackbar_content: ^0.1.2
+  pinput: ^4.0.0
 
 
 
