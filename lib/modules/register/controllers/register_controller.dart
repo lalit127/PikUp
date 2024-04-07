@@ -17,11 +17,11 @@ class RegisterController extends GetxController {
   RxInt age = 25.obs;
   RxBool isRegularDiet = true.obs;
   RxString doYouEat = "Veg".obs;
-  late AppLocalizations localizations;
+  // late AppLocalization localizations;
 
   @override
   void onInit() {
-    localizations = getAppLocalizations(Get.context!)!;
+    // localizations = getAppLocalizations(Get.context!)!;
     foodItems.add(FoodItemModel(
       id: 1,
       image:

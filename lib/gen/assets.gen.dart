@@ -110,6 +110,17 @@ class $AssetsImagesGen {
   AssetGenImage get imgSentEmail =>
       const AssetGenImage('assets/images/img_sent_email.png');
 
+  /// File path: assets/images/motorcycle.png
+  AssetGenImage get motorcycle =>
+      const AssetGenImage('assets/images/motorcycle.png');
+
+  /// File path: assets/images/rickshaw.png
+  AssetGenImage get rickshaw =>
+      const AssetGenImage('assets/images/rickshaw.png');
+
+  /// File path: assets/images/sedan.png
+  AssetGenImage get sedan => const AssetGenImage('assets/images/sedan.png');
+
   /// List of all assets
   List<dynamic> get values => [
         imgConnect1,
@@ -118,7 +129,10 @@ class $AssetsImagesGen {
         imgConnect4,
         imgConnectSuccess,
         imgCookCompleted,
-        imgSentEmail
+        imgSentEmail,
+        motorcycle,
+        rickshaw,
+        sedan
       ];
 }
 

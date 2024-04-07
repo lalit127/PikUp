@@ -131,17 +131,10 @@ class _MyAppState extends State<MyApp> {
             theme: AppThemes.lightTheme,
             darkTheme: AppThemes.lightTheme,
             themeMode: themeMode,
-            title: "FoodEase",
-            localizationsDelegates: [
-              AppLocalizations.delegate,
-              GlobalMaterialLocalizations.delegate,
-              GlobalCupertinoLocalizations.delegate,
-              GlobalWidgetsLocalizations.delegate,
-            ],
+            title: "PikUp",
             locale: const Locale("en"),
             supportedLocales: const [
               Locale('en', ''),
-              Locale('ko', ''),
             ],
             initialRoute: AppPages.INITIAL,
             getPages: AppPages.routes,
