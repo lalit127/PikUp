@@ -57,7 +57,7 @@ class ButtonPrimaryFillIcon extends StatelessWidget {
                 children: [
                   Text(
                     text,
-                    style: AppTextStyles(context).bodyLargeBold.copyWith(
+                    style: AppTextStyles(context).display15W500.copyWith(
                           color: AppColors.whiteOff,
                           fontSize: buttonSizeType == ButtonSizeType.LARGE
                               ? AppSizes.font_18
@@ -68,7 +68,7 @@ class ButtonPrimaryFillIcon extends StatelessWidget {
                   ),
                   SizedBox(width: AppSizes.mp_w_2),
                   SvgPicture.asset(
-                    Assets.icons.alarmsvg,
+                    Assets.icons.icProfile,
                     fit: BoxFit.contain,
                     color: AppColors.whiteOff,
                   ),
@@ -130,7 +130,7 @@ class ButtonPrimaryFillIconFix extends StatelessWidget {
             children: [
               Text(
                 text,
-                style: AppTextStyles(context).bodyLargeBold.copyWith(
+                style: AppTextStyles(context).display15W500.copyWith(
                       color: AppColors.whiteOff,
                       fontSize: buttonSizeType == ButtonSizeType.LARGE
                           ? AppSizes.font_18
@@ -141,7 +141,7 @@ class ButtonPrimaryFillIconFix extends StatelessWidget {
               ),
               SizedBox(width: AppSizes.mp_w_2),
               SvgPicture.asset(
-                Assets.icons.alarmsvg,
+                Assets.icons.icProfile,
                 fit: BoxFit.contain,
                 color: AppColors.whiteOff,
               ),

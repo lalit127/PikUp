@@ -53,7 +53,7 @@ dependencies:
   permission_handler: ^10.4.3
 
   # for location
-  geolocator: ^7.0.0
+  geolocator: ^11.0.0
 
   # For load svg image and icons
   flutter_svg: ^1.1.6
@@ -129,6 +129,10 @@ dependencies:
   firebase_auth: any
   awesome_snackbar_content: ^0.1.2
   pinput: ^4.0.0
+  google_maps_flutter: ^2.6.1
+  geocoding: ^3.0.0
+  custom_map_markers: ^0.0.2+1
+  location: ^6.0.1
 
 
 

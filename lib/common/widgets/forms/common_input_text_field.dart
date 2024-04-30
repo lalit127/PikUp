@@ -96,7 +96,7 @@ class _TextInputLoginState extends State<CommonInputTextField> {
               autofocus: widget.autofocus ?? false,
               autovalidateMode: AutovalidateMode.onUserInteraction,
               validator: widget.validator,
-              style: AppTextStyles(context).titleBold.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                   fontSize: AppSizes.font_12,
                   fontFamily: BaseFonts.lexend,
                   fontWeight: FontWeight.w400,
@@ -114,7 +114,7 @@ class _TextInputLoginState extends State<CommonInputTextField> {
                     top: AppSizes.mp_v_1 / 1,
                     left: AppSizes.mp_v_1 * 2),
                 hintText: widget.hint,
-                hintStyle: AppTextStyles(context).textFieldLabel.copyWith(
+                hintStyle: AppTextStyles(context).display15W500.copyWith(
                     fontSize: AppSizes.font_12,
                     color:
                         widget.errorText != null && widget.errorText!.isNotEmpty
@@ -253,7 +253,7 @@ class _TextInputLoginState extends State<CommonInputTextField> {
             widget.moreInstructions!.length,
             (index) => Text(
               widget.moreInstructions!.elementAt(index),
-              style: AppTextStyles(context).captionRegular.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayDefault,
                   ),
             ),
@@ -279,8 +279,8 @@ class _TextInputLoginState extends State<CommonInputTextField> {
           Flexible(
             child: SvgPicture.asset(
               isPasswordVisible.value
-                  ? Assets.icons.alarmsvg
-                  : Assets.icons.alarmsvg,
+                  ? Assets.icons.icProfile
+                  : Assets.icons.icProfile,
               // Use different icons based on the password visibility
               color: isPasswordVisible.value
                   ? AppColors.primary
@@ -295,7 +295,7 @@ class _TextInputLoginState extends State<CommonInputTextField> {
             child: Text(
               isPasswordVisible.value ? "Show" : "Hidden",
               // Change the text based on the password visibility
-              style: AppTextStyles(context).captionBold.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                     color: isPasswordVisible.value
                         ? AppColors.primary
                         : AppColors.grayLight,

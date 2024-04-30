@@ -31,7 +31,7 @@ class CustomAppBars extends StatelessWidget implements PreferredSizeWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               IconButton(
-                icon: SvgPicture.asset(Assets.icons.alarmsvg),
+                icon: SvgPicture.asset(Assets.icons.icProfile),
                 onPressed: onPressed, // Use the onPressed parameter here
               ),
               SizedBox(
@@ -80,7 +80,7 @@ class CustomAppBarswithTitle extends StatelessWidget
       centerTitle: true,
       title: Text(
         text,
-        style: AppTextStyles(context).bodyLargeBold.copyWith(),
+        style: AppTextStyles(context).display15W500.copyWith(),
         textAlign: TextAlign.center,
       ),
       actions: [
@@ -121,7 +121,7 @@ class CustomAppBarWithTitleIconAction extends StatelessWidget
       title: Text(
         text,
         style: AppTextStyles(context)
-            .titleBold
+            .display15W500
             .copyWith(fontSize: AppSizes.font_18),
         textAlign: TextAlign.center,
       ),

@@ -97,7 +97,7 @@ class _AppTextFieldState extends State<AppTextField> {
         counterText: "",
         hintText: widget.hintText,
         hintStyle:
-            AppTextStyles(context).bodySmallBold.copyWith(color: _iconColor),
+            AppTextStyles(context).display15W500.copyWith(color: _iconColor),
         contentPadding:
             const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
         border: OutlineInputBorder(

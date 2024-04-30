@@ -44,7 +44,7 @@ class ItemPhotoUploadAdd extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              Assets.icons.alarmsvg,
+              Assets.icons.icProfile,
               width: AppSizes.icon_size_8,
               color: AppColors.grayDefault,
             ),
@@ -53,7 +53,7 @@ class ItemPhotoUploadAdd extends StatelessWidget {
             ),
             Text(
               "0/5",
-              style: AppTextStyles(context).bodySmallBold.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayLight,
                   ),
             ),
@@ -98,7 +98,7 @@ class ItemPhotoUploadAdd extends StatelessWidget {
                     backgroundColor: AppColors.blackLight,
                     radius: AppSizes.icon_size_2 * 1.6,
                     child: SvgPicture.asset(
-                      Assets.icons.alarmsvg,
+                      Assets.icons.icProfile,
                       color: AppColors.whiteOff,
                       width: AppSizes.icon_size_4 * 1,
                     ),

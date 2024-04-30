@@ -5,7 +5,6 @@ import 'package:pikup_app/utils/constants.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class SplashController extends GetxController {
-  final String splasehimage = Assets.icons.appLogo;
 
   @override
   void onInit() {

@@ -59,7 +59,7 @@ class ButtonGrayScaleOutline extends StatelessWidget {
                       padding: EdgeInsets.symmetric(vertical: AppSizes.mp_w_2),
                       child: Text(
                         text,
-                        style: AppTextStyles(context).bodyLargeBold.copyWith(
+                        style: AppTextStyles(context).display15W500.copyWith(
                               color: AppColors.grayDark,
                             ),
                       ),

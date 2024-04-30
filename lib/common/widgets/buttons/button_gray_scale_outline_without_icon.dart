@@ -61,7 +61,7 @@ class ButtonGrayScaleOutlineWithOutIcon extends StatelessWidget {
               ),
               child: Text(
                 text,
-                style: AppTextStyles(context).bodyLargeBold.copyWith(
+                style: AppTextStyles(context).display15W500.copyWith(
                       fontSize: AppSizes.font_14,
                       color:
                           isDisabled ? AppColors.white70 : AppColors.grayDark,

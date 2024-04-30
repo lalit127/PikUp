@@ -32,7 +32,7 @@ class TopNavBackIcon extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 AppSvgButton(
-                  imagePath: Assets.icons.alarmsvg,
+                  imagePath: Assets.icons.icProfile,
                   onPressed: () {
                     Get.back();
                   },
@@ -43,7 +43,7 @@ class TopNavBackIcon extends StatelessWidget {
                 ),
                 useHomeIcon
                     ? AppSvgButton(
-                        imagePath: Assets.icons.alarmsvg,
+                        imagePath: Assets.icons.icProfile,
                         onPressed: () {},
                         size: AppSizes.icon_size_8 * 0.9,
                       )
@@ -54,14 +54,14 @@ class TopNavBackIcon extends StatelessWidget {
           Center(
             child: Text(
               centerTitle,
-              style: AppTextStyles(context).titleBold,
+              style: AppTextStyles(context).display17W500,
             ),
           ),
           Align(
             alignment: Alignment.centerRight,
             child: useRightIcon
                 ? AppSvgButton(
-                    imagePath: Assets.icons.alarmsvg,
+                    imagePath: Assets.icons.icProfile,
                     //  imagePath: Assets.icons.al,
                     onPressed: () {},
                     size: AppSizes.icon_size_8,

@@ -61,7 +61,7 @@ class ButtonPrimaryFillSignup extends StatelessWidget {
           ),
           child: Text(
             text,
-            style: AppTextStyles(context).bodyLargeBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: AppColors.whiteOff,
                 ),
           ),

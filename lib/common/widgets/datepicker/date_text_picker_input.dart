@@ -53,7 +53,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
                 FocusScope.of(context).requestFocus(monthFocusNode);
               }
             },
-            style: AppTextStyles(context).bodyLargeBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: AppColors.blackLight,
                   fontSize: AppSizes.font_14,
                 ),
@@ -64,7 +64,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
               ),
               hintText: "DD",
               counterText: '',
-              hintStyle: AppTextStyles(context).bodyLargeBold.copyWith(
+              hintStyle: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayLighter,
                     fontSize: AppSizes.font_14,
                   ),
@@ -103,7 +103,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: AppSizes.mp_w_2),
           child: SvgPicture.asset(
-            Assets.icons.alarmsvg,
+            Assets.icons.icProfile,
             color: AppColors.grayLight,
             height: AppSizes.icon_size_6,
           ),
@@ -120,7 +120,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
                 FocusScope.of(context).requestFocus(yearFocusNode);
               }
             },
-            style: AppTextStyles(context).bodyLargeBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: AppColors.blackLight,
                   fontSize: AppSizes.font_14,
                 ),
@@ -131,7 +131,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
               ),
               hintText: "MM",
               counterText: '',
-              hintStyle: AppTextStyles(context).bodyLargeBold.copyWith(
+              hintStyle: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayLighter,
                     fontSize: AppSizes.font_14,
                   ),
@@ -170,7 +170,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: AppSizes.mp_w_2),
           child: SvgPicture.asset(
-            Assets.icons.alarmsvg,
+            Assets.icons.icProfile,
             color: AppColors.grayLight,
             height: AppSizes.icon_size_6,
           ),
@@ -185,7 +185,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
             onChanged: (value) {
               if (value.length == 4) {}
             },
-            style: AppTextStyles(context).bodyLargeBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: AppColors.blackLight,
                   fontSize: AppSizes.font_14,
                 ),
@@ -196,7 +196,7 @@ class _DateTextPickerInputState extends State<DateTextPickerInput> {
               ),
               hintText: "YYYY",
               counterText: '',
-              hintStyle: AppTextStyles(context).bodyLargeBold.copyWith(
+              hintStyle: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayLighter,
                     fontSize: AppSizes.font_14,
                   ),

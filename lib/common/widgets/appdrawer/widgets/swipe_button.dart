@@ -44,7 +44,7 @@ class _SwipeButtonState extends State<SwipeButton> {
                 child: Center(
                   child: Text("Get off",
                       style: AppTextStyles(context)
-                          .captionBold
+                          .display15W500
                           .copyWith(color: AppColors.whiteOff)),
                 ),
               ),
@@ -67,7 +67,7 @@ class _SwipeButtonState extends State<SwipeButton> {
                       child: Center(
                         child: RotatedBox(
                             quarterTurns: 90,
-                            child: SvgPicture.asset(Assets.icons.alarmsvg)),
+                            child: SvgPicture.asset(Assets.icons.icProfile)),
                       ),
                     ),
                   ),

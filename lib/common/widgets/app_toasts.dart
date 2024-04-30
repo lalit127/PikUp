@@ -59,7 +59,7 @@ class ToastSuccessWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              Assets.icons.alarmsvg,
+              Assets.icons.icProfile,
               color: AppColors.success,
               width: AppSizes.icon_size_8,
               height: AppSizes.icon_size_8,
@@ -69,7 +69,7 @@ class ToastSuccessWidget extends StatelessWidget {
             ),
             Text(
               text,
-              style: AppTextStyles(context).bodySmallBold.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.whiteOff,
                   ),
             ),
@@ -108,7 +108,7 @@ class ToastErrorWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              Assets.icons.alarmsvg,
+              Assets.icons.icProfile,
               color: AppColors.danger,
               width: AppSizes.icon_size_8,
               height: AppSizes.icon_size_8,
@@ -119,7 +119,7 @@ class ToastErrorWidget extends StatelessWidget {
             Expanded(
               child: Text(
                 text,
-                style: AppTextStyles(context).captionBold.copyWith(
+                style: AppTextStyles(context).display15W500.copyWith(
                       color: AppColors.whiteOff,
                     ),
               ),

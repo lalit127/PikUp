@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:get/get.dart';
+import 'package:pikup_app/common/common_import.dart';
 import 'package:pikup_app/common/widgets/buttons/custom_button.dart';
+import 'package:pikup_app/gen/assets.gen.dart';
 import 'package:pikup_app/modules/login/controllers/login_controller.dart';
 
 class LoginView extends StatefulWidget {
@@ -11,7 +13,8 @@ class LoginView extends StatefulWidget {
   State<LoginView> createState() => _LoginViewState();
 }
 
-class _LoginViewState extends State<LoginView> {
+class _LoginViewState extends State<LoginView>
+    with SingleTickerProviderStateMixin {
   TextEditingController phoneController = TextEditingController();
 
   Country _selectedCountry = Country(
@@ -27,11 +30,28 @@ class _LoginViewState extends State<LoginView> {
     e164Key: "",
   );
 
+  // late AnimationController _controller;
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   _controller = AnimationController(
+  //     duration: Duration(seconds: 2), // Adjust the duration as needed
+  //     vsync: this,
+  //   )..repeat(); // Repeats the animation indefinitely
+  // }
+  //
+  // @override
+  // void dispose() {
+  //   _controller.dispose();
+  //   super.dispose();
+  // }
+
   @override
   Widget build(BuildContext context) {
     phoneController.selection = TextSelection.fromPosition(
         TextPosition(offset: phoneController.text.length));
     return Scaffold(
+      backgroundColor: AppColors.accent,
       resizeToAvoidBottomInset: false,
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 35),
@@ -40,26 +60,14 @@ class _LoginViewState extends State<LoginView> {
             SizedBox(
               height: 50,
             ),
-            Container(
-                width: 200,
-                height: 200,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Colors.purple.shade50,
-                ),
-                child: Image.asset(
-                  'lib/assets/Images/secondIntro.png',
-                )),
+            Image.asset(
+              Assets.images.bikeMan.path,
+              alignment: Alignment.center,
+            ).marginOnly(left: MediaQuery.of(context).size.width * 0.2),
             SizedBox(
               height: 10,
             ),
-            Text(
-              "Register",
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+            Text("Register", style: AppTextStyles(context).display17W500),
             Text(
               "Add Your Phone Number. We'll send you a verification code",
               style: TextStyle(

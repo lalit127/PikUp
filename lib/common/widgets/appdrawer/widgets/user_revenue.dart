@@ -18,12 +18,12 @@ class UserRevenue extends StatelessWidget {
               Row(
                 children: [
                   SvgPicture.asset(
-                    Assets.icons.alarmsvg,
+                    Assets.icons.icProfile,
                   ),
                   SizedBox(width: 1.h),
                   Text(
                     "Today",
-                    style: AppTextStyles(context).captionBold.copyWith(
+                    style: AppTextStyles(context).display15W500.copyWith(
                           color: AppColors.grayDark,
                         ),
                   ),
@@ -31,7 +31,7 @@ class UserRevenue extends StatelessWidget {
               ),
               Text(
                 "\$15.2",
-                style: AppTextStyles(context).captionBold.copyWith(
+                style: AppTextStyles(context).display15W500.copyWith(
                       color: AppColors.grayDark,
                     ),
               ),

@@ -55,7 +55,7 @@ class ButtonGrayScaleOutlineOrder extends StatelessWidget {
           ),
           child: Text(
             text,
-            style: AppTextStyles(context).bodyLargeBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: isDisabled ? AppColors.grayLight : AppColors.primary,
                 ),
           ),
@@ -117,7 +117,7 @@ class ButtonGrayScaleOutlineOrderFilter extends StatelessWidget {
           ),
           child: Text(
             text,
-            style: AppTextStyles(context).captionBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: isDisabled ? AppColors.grayLight : AppColors.primary,
                 ),
           ),
@@ -178,7 +178,7 @@ class ButtonGrayDefaultScaleOutlineOrder extends StatelessWidget {
           ),
           child: Text(
             text,
-            style: AppTextStyles(context).bodySmallBold.copyWith(
+            style: AppTextStyles(context).display15W500.copyWith(
                   color: isDisabled ? AppColors.grayLight : AppColors.grayDark,
                 ),
           ),

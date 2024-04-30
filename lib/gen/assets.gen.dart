@@ -12,81 +12,19 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
-  /// File path: assets/icons/alarmsvg.svg
-  String get alarmsvg => 'assets/icons/alarmsvg.svg';
-
-  /// File path: assets/icons/app_logo.svg
-  String get appLogo => 'assets/icons/app_logo.svg';
-
-  /// File path: assets/icons/ic_account.svg
-  String get icAccount => 'assets/icons/ic_account.svg';
-
-  /// File path: assets/icons/ic_apple.svg
-  String get icApple => 'assets/icons/ic_apple.svg';
-
-  /// File path: assets/icons/ic_connect.svg
-  String get icConnect => 'assets/icons/ic_connect.svg';
-
-  /// File path: assets/icons/ic_email.svg
-  String get icEmail => 'assets/icons/ic_email.svg';
-
-  /// File path: assets/icons/ic_fb.svg
-  String get icFb => 'assets/icons/ic_fb.svg';
-
-  /// File path: assets/icons/ic_filter.svg
-  String get icFilter => 'assets/icons/ic_filter.svg';
-
-  /// File path: assets/icons/ic_google.svg
-  String get icGoogle => 'assets/icons/ic_google.svg';
-
-  /// File path: assets/icons/ic_hidden.svg
-  String get icHidden => 'assets/icons/ic_hidden.svg';
-
-  /// File path: assets/icons/ic_home.svg
-  String get icHome => 'assets/icons/ic_home.svg';
-
-  /// File path: assets/icons/ic_lock.svg
-  String get icLock => 'assets/icons/ic_lock.svg';
-
-  /// File path: assets/icons/ic_notification.svg
-  String get icNotification => 'assets/icons/ic_notification.svg';
-
   /// File path: assets/icons/ic_profile.svg
   String get icProfile => 'assets/icons/ic_profile.svg';
 
-  /// File path: assets/icons/ic_receipt.svg
-  String get icReceipt => 'assets/icons/ic_receipt.svg';
-
-  /// File path: assets/icons/ic_shopping_list.svg
-  String get icShoppingList => 'assets/icons/ic_shopping_list.svg';
-
-  /// File path: assets/icons/ic_show.svg
-  String get icShow => 'assets/icons/ic_show.svg';
-
   /// List of all assets
-  List<String> get values => [
-        alarmsvg,
-        appLogo,
-        icAccount,
-        icApple,
-        icConnect,
-        icEmail,
-        icFb,
-        icFilter,
-        icGoogle,
-        icHidden,
-        icHome,
-        icLock,
-        icNotification,
-        icProfile,
-        icReceipt,
-        icShoppingList,
-        icShow
-      ];
+  List<String> get values => [icProfile];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// File path: assets/images/bike_man.png
+  AssetGenImage get bikeMan =>
+      const AssetGenImage('assets/images/bike_man.png');
 
   /// File path: assets/images/img_connect_1.svg
   String get imgConnect1 => 'assets/images/img_connect_1.svg';
@@ -123,6 +61,7 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<dynamic> get values => [
+        bikeMan,
         imgConnect1,
         imgConnect2,
         imgConnect3,

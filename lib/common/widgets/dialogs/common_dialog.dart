@@ -37,7 +37,7 @@ class CommonDialog extends StatelessWidget {
               Text(
                 title,
                 textAlign: TextAlign.center,
-                style: AppTextStyles(context).bodyLargeBold,
+                style: AppTextStyles(context).display15W500,
               ),
               SizedBox(
                 height: AppSizes.mp_v_2,
@@ -46,7 +46,7 @@ class CommonDialog extends StatelessWidget {
                 subTitle,
                 textAlign: TextAlign.center,
                 style: AppTextStyles(context)
-                    .captionRegular
+                    .display15W500
                     .copyWith(color: AppColors.grayDefault),
               ),
               SizedBox(
@@ -138,7 +138,7 @@ class CommonWithRichTextDialog extends StatelessWidget {
               Text(
                 title,
                 textAlign: TextAlign.center,
-                style: AppTextStyles(context).bodyLargeBold,
+                style: AppTextStyles(context).display15W500,
               ),
               SizedBox(
                 height: AppSizes.mp_v_2,
@@ -148,19 +148,19 @@ class CommonWithRichTextDialog extends StatelessWidget {
                 text: TextSpan(
                   text: startTitle,
                   style: AppTextStyles(context)
-                      .captionRegular
+                      .display15W500
                       .copyWith(color: AppColors.grayDefault),
                   children: <TextSpan>[
                     TextSpan(
                       text: ceneterTitle,
                       style: AppTextStyles(context)
-                          .captionBold
+                          .display15W500
                           .copyWith(color: AppColors.grayDefault),
                     ),
                     TextSpan(
                       text: endTitle,
                       style: AppTextStyles(context)
-                          .captionRegular
+                          .display15W500
                           .copyWith(color: AppColors.grayDefault),
                     ),
                   ],

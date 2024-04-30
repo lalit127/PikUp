@@ -23,7 +23,7 @@ class MenuItem extends StatelessWidget {
       itemBuilder: (context, index) {
         return ListTile(
           title: Text(items[index].title,
-              style: AppTextStyles(context).bodyLargeBold),
+              style: AppTextStyles(context).display15W500),
           onTap: () {
             statusBarController.changeStatusBarColor("");
             if (items[index].route.isNotEmpty) Get.toNamed(items[index].route);

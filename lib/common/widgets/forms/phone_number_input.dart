@@ -66,16 +66,16 @@ class _PhoneNumberInputState extends State<PhoneNumberInput> {
           textInputAction: TextInputAction.next,
           keyboardType: TextInputType.phone,
           style: AppTextStyles(context)
-              .titleBold
+              .display15W500
               .copyWith(color: AppColors.blackLight),
           validator: widget.validator,
           decoration: InputDecoration(
             // labelText: widget.hint,
             hintText: _isFocused ? null : widget.hint,
-            hintStyle: AppTextStyles(context).titleBold.copyWith(
+            hintStyle: AppTextStyles(context).display15W500.copyWith(
                 color: AppColors.grayLighter, fontSize: AppSizes.font_16),
             labelStyle: AppTextStyles(context)
-                .captionBold
+                .display15W500
                 .copyWith(color: AppColors.grayLight),
             floatingLabelBehavior: FloatingLabelBehavior.auto,
             suffixIconConstraints: BoxConstraints(
@@ -100,7 +100,7 @@ class _PhoneNumberInputState extends State<PhoneNumberInput> {
                         top: AppSizes.mp_v_1,
                       ),
                       child: SvgPicture.asset(
-                        Assets.icons.alarmsvg,
+                        Assets.icons.icProfile,
                         color: AppColors.grayLight,
                         fit: BoxFit.contain,
                       ),

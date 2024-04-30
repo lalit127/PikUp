@@ -89,7 +89,7 @@ class _ChatInputTextFieldState extends State<ChatInputTextField> {
         counterText: "",
         hintText: widget.hintText,
         hintStyle:
-            AppTextStyles(context).bodySmallRegular.copyWith(color: _iconColor),
+            AppTextStyles(context).display16W500.copyWith(color: _iconColor),
         contentPadding:
             const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
         border: OutlineInputBorder(

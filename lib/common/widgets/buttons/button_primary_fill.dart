@@ -54,13 +54,13 @@ class ButtonPrimaryFill extends StatelessWidget {
             text,
             style: buttonSizeType == ButtonSizeType.MEDIUM ||
                     buttonSizeType == ButtonSizeType.LARGE
-                ? AppTextStyles(context).bodyLargeBold.copyWith(
+                ? AppTextStyles(context).display15W500.copyWith(
                       color: textColor,
                       fontSize: AppSizes.font_14,
                       fontFamily: BaseFonts.lexend,
                       fontWeight: FontWeight.w600,
                     )
-                : AppTextStyles(context).bodySmallBold.copyWith(
+                : AppTextStyles(context).display15W500.copyWith(
                       color: textColor,
                     ),
           ),
@@ -116,11 +116,11 @@ class ButtonMobileAuthenticationPrimaryFill extends StatelessWidget {
             text,
             style: buttonSizeType == ButtonSizeType.MEDIUM ||
                     buttonSizeType == ButtonSizeType.LARGE
-                ? AppTextStyles(context).captionBold.copyWith(
+                ? AppTextStyles(context).display15W500.copyWith(
                       color: AppColors.whiteOff,
                       fontSize: AppSizes.font_10,
                     )
-                : AppTextStyles(context).bodySmallBold.copyWith(
+                : AppTextStyles(context).display15W500.copyWith(
                       color: AppColors.whiteOff,
                     ),
           ),

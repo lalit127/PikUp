@@ -19,7 +19,7 @@ class UesrInfo extends StatelessWidget {
       ),
       title: Text(
         "Kristen Stewart",
-        style: AppTextStyles(context).captionBold,
+        style: AppTextStyles(context).display15W500,
       ),
       subtitle: InkWell(
         onTap: () {
@@ -31,10 +31,10 @@ class UesrInfo extends StatelessWidget {
           children: [
             Text(
               "My Page",
-              style: AppTextStyles(context).captionRegular,
+              style: AppTextStyles(context).display15W500,
             ),
             SvgPicture.asset(
-              Assets.icons.alarmsvg,
+              Assets.icons.icProfile,
             ),
           ],
         ),

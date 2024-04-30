@@ -47,7 +47,7 @@ class _SliderButtonState extends State<CustomSliderButton>
   bool _isButtonPressed = false;
   double _buttonPosition = 0.0;
   Color _backgroundColor = Colors.black;
-  String _icon = Assets.icons.alarmsvg;
+  String _icon = Assets.icons.icProfile;
   String _label = "Get on";
 
   @override
@@ -92,7 +92,7 @@ class _SliderButtonState extends State<CustomSliderButton>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Get on";
           });
         });
@@ -103,7 +103,7 @@ class _SliderButtonState extends State<CustomSliderButton>
                   .buttonSize; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Got Off";
         });
       } else if (_label == 'Get on') {
@@ -112,7 +112,7 @@ class _SliderButtonState extends State<CustomSliderButton>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Get Off";
           });
         });
@@ -123,7 +123,7 @@ class _SliderButtonState extends State<CustomSliderButton>
                   .buttonSize; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Got on";
         });
       } else if (_label == 'Got Off') {
@@ -132,7 +132,7 @@ class _SliderButtonState extends State<CustomSliderButton>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Get Off";
           });
         });
@@ -143,7 +143,7 @@ class _SliderButtonState extends State<CustomSliderButton>
                   .buttonSize; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Get on";
         });
       }
@@ -154,7 +154,7 @@ class _SliderButtonState extends State<CustomSliderButton>
         _buttonPosition = 0;
         _isButtonPressed = false;
         _backgroundColor = Colors.black;
-        _icon = Assets.icons.alarmsvg;
+        _icon = Assets.icons.icProfile;
         _label = "Get on";
       });
     }
@@ -203,7 +203,7 @@ class _SliderButtonState extends State<CustomSliderButton>
               alignment: widget.alignLabel,
               child: Text(_label,
                   style: AppTextStyles(context)
-                      .bodySmallBold
+                      .display15W500
                       .copyWith(color: AppColors.whiteOff)),
             ),
           ],
@@ -259,7 +259,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
   double _buttonPosition = 0.0;
   Color _backgroundColor = Colors.black;
   BoxDecoration _backgroundDecoration = BoxDecoration();
-  String _icon = Assets.icons.alarmsvg;
+  String _icon = Assets.icons.icProfile;
   String _label = "Slide to Accept";
   double _textOpacity = 1.0;
 
@@ -348,7 +348,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
               8; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Accepted";
         });
 
@@ -357,7 +357,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Start Delivering";
           });
         });
@@ -369,7 +369,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
               8; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Delivery Started";
         });
       } else if (_label == "Accepted") {
@@ -379,7 +379,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
               8; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Accepted";
         });
       } else if (_label == "Delivery Started") {
@@ -389,7 +389,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
               8; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Delivery Started";
         });
       }
@@ -405,7 +405,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
         _buttonPosition = 0;
         _isButtonPressed = false;
         _backgroundColor = Colors.black;
-        _icon = Assets.icons.alarmsvg;
+        _icon = Assets.icons.icProfile;
         _label = "Slide to Accept";
         _isButtonDragged = false;
       });
@@ -459,7 +459,7 @@ class _SliderButtonStateforOrder extends State<CustomSliderButtonforOrder>
                 child: Text(
                   _label,
                   style: AppTextStyles(context)
-                      .bodySmallBold
+                      .display15W500
                       .copyWith(color: AppColors.whiteOff),
                 ),
               ),
@@ -512,7 +512,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
   bool _isButtonPressed = false;
   double _buttonPosition = 0.0;
   Color _backgroundColor = Colors.black;
-  String _icon = Assets.icons.alarmsvg;
+  String _icon = Assets.icons.icProfile;
   String _label = "Pickup completed";
 
   @override
@@ -557,7 +557,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Pickup completed";
           });
         });
@@ -568,7 +568,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
               12; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Picked up";
         });
       } else if (_label == 'Pickup completed') {
@@ -577,7 +577,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
             _buttonPosition = 0;
             _isButtonPressed = false;
             _backgroundColor = Colors.black;
-            _icon = Assets.icons.alarmsvg;
+            _icon = Assets.icons.icProfile;
             _label = "Picked up";
           });
         });
@@ -588,7 +588,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
               12; // Subtract a small value to adjust the position
           _isButtonPressed = true;
           _backgroundColor = AppColors.primary;
-          _icon = Assets.icons.alarmsvg;
+          _icon = Assets.icons.icProfile;
           _label = "Pickup completed";
         });
       }
@@ -599,7 +599,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
         _buttonPosition = 0;
         _isButtonPressed = false;
         _backgroundColor = Colors.black;
-        _icon = Assets.icons.alarmsvg;
+        _icon = Assets.icons.icProfile;
         _label = "Pickup completed";
       });
     }
@@ -648,7 +648,7 @@ class _SliderButtonStates extends State<CustomSliderButtonPickUp>
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 child: Text(_label,
                     style: AppTextStyles(context)
-                        .bodyLargeBold
+                        .display15W500
                         .copyWith(color: AppColors.whiteOff)),
               ),
             ),

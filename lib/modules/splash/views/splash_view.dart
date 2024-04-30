@@ -16,7 +16,7 @@ class SplashView extends GetView<SplashController> {
     return Scaffold(
       backgroundColor: AppColors.secondaryColor,
       body: SvgPicture.asset(
-        controller.splasehimage,
+       Assets.icons.icProfile,
         fit: BoxFit.contain,
       ).toCenter,
     );

@@ -21,7 +21,7 @@ class AppUpdate extends StatelessWidget {
             Text(
               'Update version',
               textAlign: TextAlign.center,
-              style: AppTextStyles(context).headlineBold,
+              style: AppTextStyles(context).display15W500,
             ),
             SizedBox(
               height: AppSizes.mp_v_2,
@@ -30,7 +30,7 @@ class AppUpdate extends StatelessWidget {
               "Navigate to the App Store for version updates.",
               textAlign: TextAlign.center,
               style: AppTextStyles(context)
-                  .bodySmallRegular
+                  .display15W500
                   .copyWith(color: AppColors.grayDefault),
             ),
             SizedBox(

@@ -50,7 +50,7 @@ class MyCheckBox extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(AppSizes.mp_w_1),
                 child: SvgPicture.asset(
-                  Assets.icons.alarmsvg,
+                  Assets.icons.icProfile,
                   color: isInitSelected
                       ? AppColors.whiteOff
                       : AppColors.grayLighter,
@@ -111,21 +111,21 @@ class MyCheckBox extends StatelessWidget {
 
   getCheckTextStyle(context) {
     if (checkBoxSize == CheckBoxSize.SMALL) {
-      return AppTextStyles(context).bodySmallRegular.copyWith(
+      return AppTextStyles(context).display15W500.copyWith(
             color: isInitSelected ? AppColors.grayDark : AppColors.grayDefault,
           );
     }
     if (checkBoxSize == CheckBoxSize.MEDIUM) {
-      return AppTextStyles(context).bodySmallRegular.copyWith(
+      return AppTextStyles(context).display15W500.copyWith(
             color: isInitSelected ? AppColors.grayDark : AppColors.grayDefault,
           );
     }
     if (checkBoxSize == CheckBoxSize.LARGE) {
-      return AppTextStyles(context).bodyLargeBold.copyWith(
+      return AppTextStyles(context).display15W500.copyWith(
             color: isInitSelected ? AppColors.grayDark : AppColors.grayDefault,
           );
     }
-    return AppTextStyles(context).bodySmallRegular.copyWith(
+    return AppTextStyles(context).display15W500.copyWith(
           color: AppColors.grayDefault,
         );
   }

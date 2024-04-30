@@ -65,7 +65,7 @@ class _AnnouncementsPopupState extends State<AnnouncementsPopup> {
                 child: Text(
                   'Important',
                   textAlign: TextAlign.left,
-                  style: AppTextStyles(context).captionBold.copyWith(
+                  style: AppTextStyles(context).display15W500.copyWith(
                         color: AppColors.danger,
                       ),
                 ),
@@ -76,14 +76,14 @@ class _AnnouncementsPopupState extends State<AnnouncementsPopup> {
             ),
             Text(
               'Policy guidance following the lifting of CO...',
-              style: AppTextStyles(context).headlineBold,
+              style: AppTextStyles(context).display15W500,
             ),
             SizedBox(
               height: AppSizes.mp_v_1,
             ),
             Text(
               '(Sat)16-12-22',
-              style: AppTextStyles(context).bodySmallRegular.copyWith(
+              style: AppTextStyles(context).display15W500.copyWith(
                     color: AppColors.grayLight,
                   ),
             ),
@@ -115,7 +115,7 @@ class _AnnouncementsPopupState extends State<AnnouncementsPopup> {
               children: [
                 CustomNormalButton(
                   text: 'More',
-                  textStyle: AppTextStyles(context).bodyLargeBold.copyWith(
+                  textStyle: AppTextStyles(context).display15W500.copyWith(
                         color: AppColors.whiteOff,
                       ),
                   textcolor: AppColors.whiteOff,
@@ -132,7 +132,7 @@ class _AnnouncementsPopupState extends State<AnnouncementsPopup> {
                 ),
                 CustomNormalButton(
                   text: 'Confirm',
-                  textStyle: AppTextStyles(context).bodyLargeBold.copyWith(
+                  textStyle: AppTextStyles(context).display15W500.copyWith(
                         color: AppColors.whiteOff,
                       ),
                   textcolor: AppColors.whiteOff,
@@ -211,7 +211,7 @@ class AnnouncementsPage extends StatelessWidget {
             text2,
             textAlign: TextAlign.start,
             style: AppTextStyles(context)
-                .bodySmallRegular
+                .display15W500
                 .copyWith(color: AppColors.grayDark),
           )
         ],

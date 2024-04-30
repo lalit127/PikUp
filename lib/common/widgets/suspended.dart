@@ -69,7 +69,7 @@ import 'package:url_launcher/url_launcher.dart';
 //                 child: Text(
 //                   "Riders are suspended until 25-08-2023. \n For more information, \n please contact Bellboy Support.",
 //                   textAlign: TextAlign.center,
-//                   style: AppTextStyles(context).bodySmallBold.copyWith(
+//                   style: AppTextStyles(context).display15W500.copyWith(
 //                     color: AppColors.grayDark,
 //                   ),
 //                 ),
@@ -93,7 +93,7 @@ import 'package:url_launcher/url_launcher.dart';
 //                     },
 //                     child: Text(
 //                       "0430 027 934",
-//                       style: AppTextStyles(context).bodySmallBold.copyWith(
+//                       style: AppTextStyles(context).display15W500.copyWith(
 //                         color: AppColors.grayDefault,
 //                       ),
 //                     ),

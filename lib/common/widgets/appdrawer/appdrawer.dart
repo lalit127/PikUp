@@ -38,7 +38,7 @@ class _AppDrawerState extends State<AppDrawer> {
                       statusBarController.changeStatusBarColor("");
                       Get.back();
                     },
-                    child: SvgPicture.asset(Assets.icons.alarmsvg),
+                    child: SvgPicture.asset(Assets.icons.icProfile),
                   ),
                 ),
               ),
@@ -79,7 +79,7 @@ class _AppDrawerState extends State<AppDrawer> {
       backgroundColor: AppColors.black,
       highlightedColor: Colors.white,
       alignLabel: Alignment.center,
-      icon: Assets.icons.alarmsvg,
+      icon: Assets.icons.icProfile,
       baseColor: AppColors.primary,
       onPressed: () {
         Future.delayed(Duration(seconds: 1), () {
