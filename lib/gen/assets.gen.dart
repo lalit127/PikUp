@@ -12,11 +12,137 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/ic_account.svg
+  String get icAccount => 'assets/icons/ic_account.svg';
+
+  /// File path: assets/icons/ic_bike.svg
+  String get icBike => 'assets/icons/ic_bike.svg';
+
+  /// File path: assets/icons/ic_check_circle.svg
+  String get icCheckCircle => 'assets/icons/ic_check_circle.svg';
+
+  /// File path: assets/icons/ic_check_verify.svg
+  String get icCheckVerify => 'assets/icons/ic_check_verify.svg';
+
+  /// File path: assets/icons/ic_coupon.svg
+  String get icCoupon => 'assets/icons/ic_coupon.svg';
+
+  /// File path: assets/icons/ic_current_location.svg
+  String get icCurrentLocation => 'assets/icons/ic_current_location.svg';
+
+  /// File path: assets/icons/ic_discount.svg
+  String get icDiscount => 'assets/icons/ic_discount.svg';
+
+  /// File path: assets/icons/ic_earn.svg
+  String get icEarn => 'assets/icons/ic_earn.svg';
+
+  /// File path: assets/icons/ic_eye.svg
+  String get icEye => 'assets/icons/ic_eye.svg';
+
+  /// File path: assets/icons/ic_eye_off.svg
+  String get icEyeOff => 'assets/icons/ic_eye_off.svg';
+
+  /// File path: assets/icons/ic_face_neutral.svg
+  String get icFaceNeutral => 'assets/icons/ic_face_neutral.svg';
+
+  /// File path: assets/icons/ic_frown_face.svg
+  String get icFrownFace => 'assets/icons/ic_frown_face.svg';
+
+  /// File path: assets/icons/ic_happy_face.svg
+  String get icHappyFace => 'assets/icons/ic_happy_face.svg';
+
+  /// File path: assets/icons/ic_heart.svg
+  String get icHeart => 'assets/icons/ic_heart.svg';
+
+  /// File path: assets/icons/ic_help_donate.svg
+  String get icHelpDonate => 'assets/icons/ic_help_donate.svg';
+
+  /// File path: assets/icons/ic_light.svg
+  String get icLight => 'assets/icons/ic_light.svg';
+
+  /// File path: assets/icons/ic_like.svg
+  String get icLike => 'assets/icons/ic_like.svg';
+
+  /// File path: assets/icons/ic_marker_drop.svg
+  String get icMarkerDrop => 'assets/icons/ic_marker_drop.svg';
+
+  /// File path: assets/icons/ic_navigation_point.svg
+  String get icNavigationPoint => 'assets/icons/ic_navigation_point.svg';
+
+  /// File path: assets/icons/ic_notification.svg
+  String get icNotification => 'assets/icons/ic_notification.svg';
+
+  /// File path: assets/icons/ic_parcel.svg
+  String get icParcel => 'assets/icons/ic_parcel.svg';
+
+  /// File path: assets/icons/ic_play.svg
+  String get icPlay => 'assets/icons/ic_play.svg';
+
+  /// File path: assets/icons/ic_premium.svg
+  String get icPremium => 'assets/icons/ic_premium.svg';
+
+  /// File path: assets/icons/ic_premium_membership.svg
+  String get icPremiumMembership => 'assets/icons/ic_premium_membership.svg';
+
   /// File path: assets/icons/ic_profile.svg
   String get icProfile => 'assets/icons/ic_profile.svg';
 
+  /// File path: assets/icons/ic_refer_earn.svg
+  String get icReferEarn => 'assets/icons/ic_refer_earn.svg';
+
+  /// File path: assets/icons/ic_rewards.svg
+  String get icRewards => 'assets/icons/ic_rewards.svg';
+
+  /// File path: assets/icons/ic_ride.svg
+  String get icRide => 'assets/icons/ic_ride.svg';
+
+  /// File path: assets/icons/ic_search.svg
+  String get icSearch => 'assets/icons/ic_search.svg';
+
+  /// File path: assets/icons/ic_setting.svg
+  String get icSetting => 'assets/icons/ic_setting.svg';
+
+  /// File path: assets/icons/ic_shield.svg
+  String get icShield => 'assets/icons/ic_shield.svg';
+
+  /// File path: assets/icons/ic_thumbs_up.svg
+  String get icThumbsUp => 'assets/icons/ic_thumbs_up.svg';
+
   /// List of all assets
-  List<String> get values => [icProfile];
+  List<String> get values => [
+        icAccount,
+        icBike,
+        icCheckCircle,
+        icCheckVerify,
+        icCoupon,
+        icCurrentLocation,
+        icDiscount,
+        icEarn,
+        icEye,
+        icEyeOff,
+        icFaceNeutral,
+        icFrownFace,
+        icHappyFace,
+        icHeart,
+        icHelpDonate,
+        icLight,
+        icLike,
+        icMarkerDrop,
+        icNavigationPoint,
+        icNotification,
+        icParcel,
+        icPlay,
+        icPremium,
+        icPremiumMembership,
+        icProfile,
+        icReferEarn,
+        icRewards,
+        icRide,
+        icSearch,
+        icSetting,
+        icShield,
+        icThumbsUp
+      ];
 }
 
 class $AssetsImagesGen {

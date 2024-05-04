@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:pikup_app/common/widgets/buttons/custom_button.dart';
-import 'package:pikup_app/modules/home/home_view.dart';
+import 'package:pikup_app/modules/home/view/home_view.dart';
 import 'package:pikup_app/modules/login/controllers/login_controller.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';

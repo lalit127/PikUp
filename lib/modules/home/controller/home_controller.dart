@@ -7,6 +7,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:pikup_app/common/common_import.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:pikup_app/routes/app_pages.dart';
 
 class HomeController extends GetxController {
   Rx<String> currentAddress = ''.obs;
@@ -15,6 +16,49 @@ class HomeController extends GetxController {
 
   RxList<MarkerData> customMarkers = <MarkerData>[].obs;
   Rx<LatLng> initialPosition = LatLng.new(0.0, 0.0).obs;
+
+  List<DrawerModel> drawerList = <DrawerModel>[
+    DrawerModel(
+        title: 'My Profile',
+        leadingIcon: Assets.icons.icProfile,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'My Ride',
+        leadingIcon: Assets.icons.icRide,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Favourite',
+        leadingIcon: Assets.icons.icHeart,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Premium',
+        leadingIcon: Assets.icons.icProfile,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Security',
+        leadingIcon: Assets.icons.icShield,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Earn Coins',
+        leadingIcon: Assets.icons.icEarn,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Rewards',
+        leadingIcon: Assets.icons.icRewards,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Notification',
+        leadingIcon: Assets.icons.icNotification,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Payment',
+        leadingIcon: Assets.icons.icEarn,
+        routes: Routes.HOME),
+    DrawerModel(
+        title: 'Support',
+        leadingIcon: Assets.icons.icReferEarn,
+        routes: Routes.HOME)
+  ];
 
   getCurrentLocation() async {
     try {
@@ -129,4 +173,13 @@ class HomeController extends GetxController {
   //   final status = await Permission.location.request();
   //   return status;
   // }
+}
+
+class DrawerModel {
+  String title;
+  String leadingIcon;
+  String routes;
+
+  DrawerModel(
+      {required this.title, required this.leadingIcon, required this.routes});
 }

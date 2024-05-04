@@ -1,7 +1,7 @@
 import 'package:pikup_app/common/bindings/app_bindings.dart';
 import 'package:pikup_app/common/common_import.dart';
 import 'package:pikup_app/modules/home/bindings/home_binding.dart';
-import 'package:pikup_app/modules/home/home_view.dart';
+import 'package:pikup_app/modules/home/view/home_view.dart';
 import 'package:pikup_app/modules/login/views/login_view.dart';
 import 'package:pikup_app/modules/splash/bindings/splash_binding.dart';
 import 'package:pikup_app/modules/splash/views/splash_view.dart';
